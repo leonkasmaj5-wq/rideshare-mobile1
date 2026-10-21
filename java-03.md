@@ -1,16 +1,16 @@
-# Raporti i Javës 03 - Konfigurimi i Next.js
+# Raporti i Javes 03 - Konfigurimi i Next.js
 
-## Përshkrimi i Punës
-Këtë javë kemi ndërtuar faqet dhe komponentët kryesorë për aplikacionin tonë RideShare duke përdorur kornizën Next.js.
+## Pershkrimi i Punes
+Kete jave kemi ndertuar faqet dhe komponentet kryesore per aplikacionin tone RideShare me Next.js.
 
 ## Prova 1
-Hapi: Krijuam strukturën e projektit me Next.js, TypeScript dhe Tailwind CSS brenda dosjes aplikacioni.
-Rezultati: Ekzekutuam komandën e instalimit dhe testuam që aplikacioni ngarkohet me sukses dhe krijohet skedari package.json.
+Hapat: Krijuam me sukses strukturen e projektit me Next.js TypeScript dhe Tailwind CSS brenda dosjes aplikacioni.
+Rezultati: Projekti u inicializua me sukses dhe u krijua skedari package.json pa asnje gabim.
 
 ## Prova 2
-Hapi: Ndërtuam faqet dinamike për detajet e udhëtimit dhe simulimin e kërkesës brenda App Router.
-Rezultati: Krijuam me sukses skedarët aplikacioni/app/udhetimi/[id]/page.tsx dhe aplikacioni/app/udhetimi/[id]/kerkesa/page.tsx.
+Hapat: Ndertuam faqet dinamike per detajet e udhetimit dhe kerkesen per udhetim brenda App Router.
+Rezultati: U krijuan me sukses faqet ne rruget aplikacioni/app/udhetimi/[id]/page.tsx dhe kerkesa/page.tsx.
 
 ## Prova 3
-Hapi: Krijuam komponentin e ripërdorshëm KartaUdhetimi brenda dosjes components.
-Rezultati: Skedari KartaUdhetimi.tsx u krijua dhe u integrua me sukses për shfaqjen e kartave të udhëtimit.
+Hapat: Krijuam komponentin e riperdorshem KartaUdhetimi brenda dosjes components.
+Rezultati: Skedari KartaUdhetimi.tsx u krijua dhe u integrua me sukses per shfaqjen e kartave te udhetimit.
