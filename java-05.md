@@ -1,7 +1,7 @@
 # Raporti i Javës 05
 
 ## Përshkrimi i Punës
-Në këtë javë kemi ndërtuar panelin e menaxhimit të udhëtimeve me përditësimin e orarit dhe autorizimin nga GitHub.
+Kemi ndërtuar panelin e menaxhimit të udhëtimeve me Next.js, NextAuth dhe Neon PostgreSQL.
 
 ## Prova 1
 Hapat: Testojmë përditësimin e orarit për udhëtimin kur përdoruesi është i autorizuar me ID 2.
