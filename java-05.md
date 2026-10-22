@@ -1,3 +1,4 @@
+cat << 'EOF' > java-05.md
 # Raporti i Javës 05 - Paneli i Menaxhimit dhe Përditësimi i Orarit
 
 ## Përshkrimi i Punës
@@ -14,4 +15,4 @@ Rezultati real: Udhëtimi me ID 1 u refuzua dhe ora mbeti e paprekur në 08:00.
 ## Prova 3
 Hapat: Verifikojmë hyrjen me GitHub dhe ruajtjen e sesionit për përdoruesin.
 Rezultati real: Hyrja me GitHub funksionon dhe lejet e panelit zbatohen saktë.
-
+EOF
