@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## PWA and offline trip reading
+
+The app exposes the public trip list at `/api/udhetimet` and provides an
+offline-only reader at `/offline.html`. The service worker caches only that
+reader, its icons, and the public trip-list response; private routes, sign-in,
+and write requests are not cached. The cached list may be stale and cannot
+confirm a seat request.
+
+To check the PWA locally, open the app over `localhost`, visit it once while
+online, then open `/offline.html`. In browser developer tools, verify that
+`rideshare-public-v1` contains `/api/udhetimet`; switch the app tab to Offline
+and reload `/`. The reader should show the saved list and its timestamp. Switch
+back online and select **Rifresko listën** to request current data.
+
 ## Getting Started
 
 First, run the development server:

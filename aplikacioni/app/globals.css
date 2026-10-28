@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.pwa-notice {
+  padding: 1rem;
+  background: #0b101b;
+  color: #edf2ff;
+}
+
+.pwa-notice a {
+  color: #fda4af;
+}
+
+.pwa-notice p {
+  margin: 0.4rem 0 0;
+  font-size: 0.9rem;
+}
